@@ -1,0 +1,16 @@
+from random import randint
+
+taringud = []
+
+while True:
+    a = randint(1,6)
+    taringud.append(a)
+    print(taringud)
+    valik = input("Kas soovite veeretadad täringuid uuesti? [Jah], [Ei] >")
+    if valik == "jah" or valik == "Jah":
+        continue
+    else:
+        break
+    
+    
+
