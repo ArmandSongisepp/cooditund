@@ -1,0 +1,5 @@
+isikukood = input("Sisestage isikukood: ")
+if isikukood[0] == "1" or isikukood[0] == "3" or isikukood[0]== "5":
+    print("Meessoost isik")
+else:
+    print("Naissoost isik")
