@@ -1,0 +1,7 @@
+topsiridade_arv = int(input("Sisestage topsi ridade arv "))
+summa = 0
+rida = 1
+while rida <= topsiridade_arv:
+    summa += rida
+    rida += 1
+print("teil on vaja kokku " + str(summa) + " topsi")
