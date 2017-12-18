@@ -1,0 +1,5 @@
+inimesi=int(input("Sisestage inimeste arv: "))
+suurus=int(input("Sisestage busside suurus: "))
+busse=inimesi//suurus
+viimane=inimesi-(busse*suurus)
+print("busse on täis: " + str(busse) + ", viimases bussis on inimesi : " + str(viimane))
